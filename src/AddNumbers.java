@@ -1,3 +1,5 @@
 public class AddNumbers {
-    public abstract int addIntegers(int aNumber, int anotherNumber);
+    public int addIntegers(int aNumber, int anotherNumber) {
+        return aNumber + anotherNumber;
+    }
 }
