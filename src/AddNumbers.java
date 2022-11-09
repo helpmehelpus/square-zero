@@ -9,4 +9,7 @@ public class AddNumbers {
     public double addDoubles(float aDouble, float anotherDouble) {
         return aDouble + anotherDouble;
     }
+    public double addIntAndDouble(int aNumber, double anotherNumber) {
+        return aNumber + anotherNumber;
+    }
 }
