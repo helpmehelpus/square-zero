@@ -12,4 +12,9 @@ public class AddNumbers {
     public double addIntAndDouble(int aNumber, double anotherNumber) {
         return aNumber + anotherNumber;
     }
+
+    // Out of context
+    public static boolean doesStringContainAnother(String aString, String anotherString) {
+        return aString.contains(anotherString);
+    }
 }
