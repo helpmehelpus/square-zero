@@ -30,4 +30,7 @@ public class AddNumbers {
         return aDouble - anotherDouble;
     }
 
+    public double subtractIntAndDouble(int anInteger, double aDouble) {
+        return anInteger - aDouble;
+    }
 }
