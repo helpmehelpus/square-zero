@@ -33,4 +33,8 @@ public class AddNumbers {
     public double subtractIntAndDouble(int anInteger, double aDouble) {
         return anInteger - aDouble;
     }
+
+    public double squareRoot(double aNumber) {
+        return Math.sqrt(aNumber);
+    }
 }
