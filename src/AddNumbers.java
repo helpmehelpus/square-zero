@@ -21,4 +21,8 @@ public class AddNumbers {
     public static int subtractIntegers(int anInteger, int anotherInteger) {
         return anInteger - anotherInteger;
     }
+
+    public static int subtractFloat(int aFloat, int anotherFloat) {
+        return aFloat - anotherFloat;
+    }
 }
