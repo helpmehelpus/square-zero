@@ -17,4 +17,8 @@ public class AddNumbers {
     public static boolean doesStringContainAnother(String aString, String anotherString) {
         return aString.contains(anotherString);
     }
+
+    public static int subtractIntegers(int anInteger, int anotherInteger) {
+        return anInteger - anotherInteger;
+    }
 }
