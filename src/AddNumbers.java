@@ -26,4 +26,8 @@ public class AddNumbers {
         return aFloat - anotherFloat;
     }
 
+    public static double subtractDouble(double aDouble, double anotherDouble) {
+        return aDouble - anotherDouble;
+    }
+
 }
