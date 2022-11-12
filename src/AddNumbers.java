@@ -13,7 +13,7 @@ public class AddNumbers {
         return aNumber + anotherNumber;
     }
 
-    public static int subtractIntegers(int anInteger, int anotherInteger) {
+    public int subtractIntegers(int anInteger, int anotherInteger) {
         return anInteger - anotherInteger;
     }
 
