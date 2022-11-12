@@ -35,6 +35,12 @@ public class AddNumbers {
     }
 
     public double squareRoot(double aNumber) {
-        return Math.sqrt(aNumber);
+        double t;
+        double squareRoot = aNumber / 2;
+        do {
+            t = squareRoot;
+            squareRoot = (t + (aNumber / t)) / 2;
+        } while ((t - squareRoot) >= 0.0001);
+        return squareRoot;
     }
 }
