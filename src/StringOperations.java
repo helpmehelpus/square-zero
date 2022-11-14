@@ -11,4 +11,8 @@ public class StringOperations {
     public static boolean doesStringStartWith(String aString, String anotherString) {
         return aString.startsWith(anotherString);
     }
+
+    public static boolean doesStringEndWith(String aString, String anotherString) {
+        return aString.endsWith(anotherString);
+    }
 }
