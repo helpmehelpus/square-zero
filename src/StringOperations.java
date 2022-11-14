@@ -4,7 +4,7 @@ public class StringOperations {
     }
 
     // Moved to "right" context
-//    public static boolean doesStringContainAnother(String aString, String anotherString) {
-//        return aString.contains(anotherString);
-//    }
+    public static boolean doesStringContainAnother(String aString, String anotherString) {
+        return aString.contains(anotherString);
+    }
 }
