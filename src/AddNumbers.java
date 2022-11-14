@@ -38,4 +38,17 @@ public class AddNumbers {
         } while ((t - squareRoot) >= 0.0001);
         return squareRoot;
     }
+
+    public int maxNumber(int num, int num_2, int num_3) {
+        if (num >= num_2 && num >= num_3) {
+            return num;
+        }
+        if (num_2 >= num && num_2 >= num_3) {
+            return num_2;
+        }
+        if (num_3 >= num && num_3 >= num_2) {
+            return num_3;
+        }
+        return num;
+    }
 }
