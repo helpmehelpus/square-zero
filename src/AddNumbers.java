@@ -38,16 +38,4 @@ public class AddNumbers {
         } while ((t - squareRoot) >= 0.0001);
         return squareRoot;
     }
-
-    // Another surprising addition. This one a bit more: a nested class, with unrelated functionality
-//    public class StringOperations {
-//        public concatenateStrings(String aString, String anotherString) {
-//            return aString + anotherString;
-//        }
-//
-//        // Moved to "right" context
-//        public static boolean doesStringContainAnother(String aString, String anotherString) {
-//            return aString.contains(anotherString);
-//        }
-//    }
 }
