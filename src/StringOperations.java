@@ -8,7 +8,7 @@ public class StringOperations {
         return aString.contains(anotherString);
     }
 
-    public boolean doesStringContainAnother(String aString, String anotherString) {
-        return aString.contains(anotherString);
+    public static boolean doesStringStartWith(String aString, String anotherString) {
+        return aString.startsWith(anotherString);
     }
 }
