@@ -7,4 +7,8 @@ public class StringOperations {
     public static boolean doesStringContainAnother(String aString, String anotherString) {
         return aString.contains(anotherString);
     }
+
+    public boolean doesStringContainAnother(String aString, String anotherString) {
+        return aString.contains(anotherString);
+    }
 }
