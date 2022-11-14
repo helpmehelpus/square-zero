@@ -15,4 +15,9 @@ public class StringOperations {
     public static boolean doesStringEndWith(String aString, String anotherString) {
         return aString.endsWith(anotherString);
     }
+
+    // Out of context
+    public boolean isGreaterThan(int aNumber, int anotherNumber) {
+        return aNumber > anotherNumber;
+    }
 }
