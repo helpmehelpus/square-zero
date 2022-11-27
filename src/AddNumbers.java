@@ -1,3 +1,4 @@
+import java.util.stream.*;
 public class AddNumbers {
     public int addIntegers(int aNumber, int anotherNumber) {
         return aNumber + anotherNumber;
@@ -71,5 +72,9 @@ public class AddNumbers {
             sum += nums[i];
         }
         return sum;
+    }
+
+    public static int sumOfListStream(int[] nums) {
+        return IntStream.of(nums).sum();
     }
 }
