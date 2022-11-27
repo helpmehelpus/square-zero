@@ -66,13 +66,13 @@ public class AddNumbers {
         return num;
     }
 
-    public static int sumOfList(int[] nums) {
-        int sum = 0;
-        for (int i = 0; i < nums.length; i++){
-            sum += nums[i];
-        }
-        return sum;
-    }
+//    public static int sumOfList(int[] nums) {
+//        int sum = 0;
+//        for (int i = 0; i < nums.length; i++){
+//            sum += nums[i];
+//        }
+//        return sum;
+//    }
 
     public static int sumOfListStream(int[] nums) {
         return IntStream.of(nums).sum();
